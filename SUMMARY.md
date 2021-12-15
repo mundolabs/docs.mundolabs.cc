@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Branding Survey](branding-survey.md)
 
 ## Foundations
 
