@@ -1,0 +1,610 @@
+/*
+
+    ######   #        #     #  #######  #        ###   #####   #     #  ####### 
+    #     #  #        #     #  #        #         #   #     #  #     #     #    
+    #     #  #        #     #  #        #         #   #        #     #     #    
+    ######   #        #     #  #####    #         #   #  ####  #######     #    
+    #     #  #        #     #  #        #         #   #     #  #     #     #    
+    #     #  #        #     #  #        #         #   #     #  #     #     #    
+    ######   #######   #####   #######  #######  ###   #####   #     #     #    
+
+    ===========================================================================
+
+    Developed by (C) Mundo Labs.
+    mundolabs.cc
+
+*/
+/* ====== CONFIG ====== */
+/* Theme */
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+/* ========================  /
+/  ====== FOUNDATION ======  /
+/  ======================== */
+/* ====== COLOURS ====== */
+/* Greyscale */
+/* Blue */
+/* Red */
+/* Green */
+/* ====== SHAPES ====== */
+/* Corner Radius */
+/* ====== TYPOGRAPHY ====== */
+/* ========================  /
+/  ====== COMPONENTS ======  /
+/  ======================== */
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ====== BUTTONS ====== */
+.buttonSecondary--green-800, .buttonSecondary--green-700, .buttonSecondary--green-600, .buttonSecondary--green-500, .buttonSecondary--green-400, .buttonSecondary--green-300, .buttonSecondary--green-200, .buttonSecondary--green-100, .buttonSecondary--red-800, .buttonSecondary--red-700, .buttonSecondary--red-600, .buttonSecondary--red-500, .buttonSecondary--red-400, .buttonSecondary--red-300, .buttonSecondary--red-200, .buttonSecondary--red-100, .buttonSecondary--blue-800, .buttonSecondary--blue-700, .buttonSecondary--blue-600, .buttonSecondary--blue-500, .buttonSecondary--blue-400, .buttonSecondary--blue-300, .buttonSecondary--blue-200, .buttonSecondary--blue-100, .buttonSecondary--grey-800, .buttonSecondary--grey-700, .buttonSecondary--grey-600, .buttonSecondary--grey-500, .buttonSecondary--grey-400, .buttonSecondary--grey-300, .buttonSecondary--grey-200, .buttonSecondary--grey-100, .buttonSecondary--black, .buttonSecondary--white, .buttonPrimary--green-800, .buttonPrimary--green-700, .buttonPrimary--green-600, .buttonPrimary--green-500, .buttonPrimary--green-400, .buttonPrimary--green-300, .buttonPrimary--green-200, .buttonPrimary--green-100, .buttonPrimary--red-800, .buttonPrimary--red-700, .buttonPrimary--red-600, .buttonPrimary--red-500, .buttonPrimary--red-400, .buttonPrimary--red-300, .buttonPrimary--red-200, .buttonPrimary--red-100, .buttonPrimary--blue-800, .buttonPrimary--blue-700, .buttonPrimary--blue-600, .buttonPrimary--blue-500, .buttonPrimary--blue-400, .buttonPrimary--blue-300, .buttonPrimary--blue-200, .buttonPrimary--blue-100, .buttonPrimary--grey-800, .buttonPrimary--grey-700, .buttonPrimary--grey-600, .buttonPrimary--grey-500, .buttonPrimary--grey-400, .buttonPrimary--grey-300, .buttonPrimary--grey-200, .buttonPrimary--grey-100, .buttonPrimary--black, .buttonPrimary--white {
+  border-radius: 5pt;
+  padding: 8pt;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+  vertical-align: middle;
+}
+.buttonSecondary--green-800 p, .buttonSecondary--green-700 p, .buttonSecondary--green-600 p, .buttonSecondary--green-500 p, .buttonSecondary--green-400 p, .buttonSecondary--green-300 p, .buttonSecondary--green-200 p, .buttonSecondary--green-100 p, .buttonSecondary--red-800 p, .buttonSecondary--red-700 p, .buttonSecondary--red-600 p, .buttonSecondary--red-500 p, .buttonSecondary--red-400 p, .buttonSecondary--red-300 p, .buttonSecondary--red-200 p, .buttonSecondary--red-100 p, .buttonSecondary--blue-800 p, .buttonSecondary--blue-700 p, .buttonSecondary--blue-600 p, .buttonSecondary--blue-500 p, .buttonSecondary--blue-400 p, .buttonSecondary--blue-300 p, .buttonSecondary--blue-200 p, .buttonSecondary--blue-100 p, .buttonSecondary--grey-800 p, .buttonSecondary--grey-700 p, .buttonSecondary--grey-600 p, .buttonSecondary--grey-500 p, .buttonSecondary--grey-400 p, .buttonSecondary--grey-300 p, .buttonSecondary--grey-200 p, .buttonSecondary--grey-100 p, .buttonSecondary--black p, .buttonSecondary--white p, .buttonPrimary--green-800 p, .buttonPrimary--green-700 p, .buttonPrimary--green-600 p, .buttonPrimary--green-500 p, .buttonPrimary--green-400 p, .buttonPrimary--green-300 p, .buttonPrimary--green-200 p, .buttonPrimary--green-100 p, .buttonPrimary--red-800 p, .buttonPrimary--red-700 p, .buttonPrimary--red-600 p, .buttonPrimary--red-500 p, .buttonPrimary--red-400 p, .buttonPrimary--red-300 p, .buttonPrimary--red-200 p, .buttonPrimary--red-100 p, .buttonPrimary--blue-800 p, .buttonPrimary--blue-700 p, .buttonPrimary--blue-600 p, .buttonPrimary--blue-500 p, .buttonPrimary--blue-400 p, .buttonPrimary--blue-300 p, .buttonPrimary--blue-200 p, .buttonPrimary--blue-100 p, .buttonPrimary--grey-800 p, .buttonPrimary--grey-700 p, .buttonPrimary--grey-600 p, .buttonPrimary--grey-500 p, .buttonPrimary--grey-400 p, .buttonPrimary--grey-300 p, .buttonPrimary--grey-200 p, .buttonPrimary--grey-100 p, .buttonPrimary--black p, .buttonPrimary--white p {
+  padding: 0;
+  margin: -0.5pt 0 0 0;
+}
+.buttonSecondary--green-800 span.material-icons, .buttonSecondary--green-700 span.material-icons, .buttonSecondary--green-600 span.material-icons, .buttonSecondary--green-500 span.material-icons, .buttonSecondary--green-400 span.material-icons, .buttonSecondary--green-300 span.material-icons, .buttonSecondary--green-200 span.material-icons, .buttonSecondary--green-100 span.material-icons, .buttonSecondary--red-800 span.material-icons, .buttonSecondary--red-700 span.material-icons, .buttonSecondary--red-600 span.material-icons, .buttonSecondary--red-500 span.material-icons, .buttonSecondary--red-400 span.material-icons, .buttonSecondary--red-300 span.material-icons, .buttonSecondary--red-200 span.material-icons, .buttonSecondary--red-100 span.material-icons, .buttonSecondary--blue-800 span.material-icons, .buttonSecondary--blue-700 span.material-icons, .buttonSecondary--blue-600 span.material-icons, .buttonSecondary--blue-500 span.material-icons, .buttonSecondary--blue-400 span.material-icons, .buttonSecondary--blue-300 span.material-icons, .buttonSecondary--blue-200 span.material-icons, .buttonSecondary--blue-100 span.material-icons, .buttonSecondary--grey-800 span.material-icons, .buttonSecondary--grey-700 span.material-icons, .buttonSecondary--grey-600 span.material-icons, .buttonSecondary--grey-500 span.material-icons, .buttonSecondary--grey-400 span.material-icons, .buttonSecondary--grey-300 span.material-icons, .buttonSecondary--grey-200 span.material-icons, .buttonSecondary--grey-100 span.material-icons, .buttonSecondary--black span.material-icons, .buttonSecondary--white span.material-icons, .buttonPrimary--green-800 span.material-icons, .buttonPrimary--green-700 span.material-icons, .buttonPrimary--green-600 span.material-icons, .buttonPrimary--green-500 span.material-icons, .buttonPrimary--green-400 span.material-icons, .buttonPrimary--green-300 span.material-icons, .buttonPrimary--green-200 span.material-icons, .buttonPrimary--green-100 span.material-icons, .buttonPrimary--red-800 span.material-icons, .buttonPrimary--red-700 span.material-icons, .buttonPrimary--red-600 span.material-icons, .buttonPrimary--red-500 span.material-icons, .buttonPrimary--red-400 span.material-icons, .buttonPrimary--red-300 span.material-icons, .buttonPrimary--red-200 span.material-icons, .buttonPrimary--red-100 span.material-icons, .buttonPrimary--blue-800 span.material-icons, .buttonPrimary--blue-700 span.material-icons, .buttonPrimary--blue-600 span.material-icons, .buttonPrimary--blue-500 span.material-icons, .buttonPrimary--blue-400 span.material-icons, .buttonPrimary--blue-300 span.material-icons, .buttonPrimary--blue-200 span.material-icons, .buttonPrimary--blue-100 span.material-icons, .buttonPrimary--grey-800 span.material-icons, .buttonPrimary--grey-700 span.material-icons, .buttonPrimary--grey-600 span.material-icons, .buttonPrimary--grey-500 span.material-icons, .buttonPrimary--grey-400 span.material-icons, .buttonPrimary--grey-300 span.material-icons, .buttonPrimary--grey-200 span.material-icons, .buttonPrimary--grey-100 span.material-icons, .buttonPrimary--black span.material-icons, .buttonPrimary--white span.material-icons {
+  vertical-align: middle;
+  margin: -2.25pt 4pt 0pt 0;
+  padding: 0;
+  font-size: 14pt;
+}
+
+.buttonSecondary--green-800:hover, .buttonPrimary--green-800:hover, .buttonSecondary--green-700:hover, .buttonPrimary--green-700:hover, .buttonSecondary--green-600:hover, .buttonPrimary--green-600:hover, .buttonSecondary--green-500:hover, .buttonPrimary--green-500:hover, .buttonSecondary--green-400:hover, .buttonPrimary--green-400:hover, .buttonSecondary--green-300:hover, .buttonPrimary--green-300:hover, .buttonSecondary--green-200:hover, .buttonPrimary--green-200:hover, .buttonSecondary--green-100:hover, .buttonPrimary--green-100:hover, .buttonSecondary--red-800:hover, .buttonPrimary--red-800:hover, .buttonSecondary--red-700:hover, .buttonPrimary--red-700:hover, .buttonSecondary--red-600:hover, .buttonPrimary--red-600:hover, .buttonSecondary--red-500:hover, .buttonPrimary--red-500:hover, .buttonSecondary--red-400:hover, .buttonPrimary--red-400:hover, .buttonSecondary--red-300:hover, .buttonPrimary--red-300:hover, .buttonSecondary--red-200:hover, .buttonPrimary--red-200:hover, .buttonSecondary--red-100:hover, .buttonPrimary--red-100:hover, .buttonSecondary--blue-800:hover, .buttonPrimary--blue-800:hover, .buttonSecondary--blue-700:hover, .buttonPrimary--blue-700:hover, .buttonSecondary--blue-600:hover, .buttonPrimary--blue-600:hover, .buttonSecondary--blue-500:hover, .buttonPrimary--blue-500:hover, .buttonSecondary--blue-400:hover, .buttonPrimary--blue-400:hover, .buttonSecondary--blue-300:hover, .buttonPrimary--blue-300:hover, .buttonSecondary--blue-200:hover, .buttonPrimary--blue-200:hover, .buttonSecondary--blue-100:hover, .buttonPrimary--blue-100:hover, .buttonSecondary--grey-800:hover, .buttonPrimary--grey-800:hover, .buttonSecondary--grey-700:hover, .buttonPrimary--grey-700:hover, .buttonSecondary--grey-600:hover, .buttonPrimary--grey-600:hover, .buttonSecondary--grey-500:hover, .buttonPrimary--grey-500:hover, .buttonSecondary--grey-400:hover, .buttonPrimary--grey-400:hover, .buttonSecondary--grey-300:hover, .buttonPrimary--grey-300:hover, .buttonSecondary--grey-200:hover, .buttonPrimary--grey-200:hover, .buttonSecondary--grey-100:hover, .buttonPrimary--grey-100:hover, .buttonSecondary--black:hover, .buttonPrimary--black:hover, .buttonSecondary--white:hover, .buttonPrimary--white:hover {
+  border-radius: 5pt;
+  scale: 1.05;
+}
+
+.buttonPrimary--white {
+  background: linear-gradient(90deg, #FFFFFF, #f2f2f2);
+  color: #000000;
+}
+.buttonPrimary--white:hover {
+  background: linear-gradient(90deg, #FFFFFF, #f2f2f2);
+}
+
+.buttonSecondary--white {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+.buttonSecondary--white:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.buttonPrimary--black {
+  background: linear-gradient(90deg, #000000, black);
+  color: #FFFFFF;
+}
+.buttonPrimary--black:hover {
+  background: linear-gradient(90deg, #000000, black);
+}
+
+.buttonSecondary--black {
+  background-color: transparent;
+  color: #000000;
+}
+.buttonSecondary--black:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.buttonPrimary--grey-100 {
+  background: linear-gradient(90deg, #F5F5F5, #e8e8e8);
+  color: #000000;
+}
+.buttonPrimary--grey-100:hover {
+  background: linear-gradient(90deg, #F5F5F5, #e8e8e8);
+}
+
+.buttonSecondary--grey-100 {
+  background-color: transparent;
+  color: #F5F5F5;
+}
+.buttonSecondary--grey-100:hover {
+  background-color: rgba(245, 245, 245, 0.1);
+}
+
+.buttonPrimary--grey-200 {
+  background: linear-gradient(90deg, #E9E9E9, gainsboro);
+  color: #000000;
+}
+.buttonPrimary--grey-200:hover {
+  background: linear-gradient(90deg, #E9E9E9, gainsboro);
+}
+
+.buttonSecondary--grey-200 {
+  background-color: transparent;
+  color: #E9E9E9;
+}
+.buttonSecondary--grey-200:hover {
+  background-color: rgba(233, 233, 233, 0.1);
+}
+
+.buttonPrimary--grey-300 {
+  background: linear-gradient(90deg, #DEDEDE, #d1d1d1);
+  color: #000000;
+}
+.buttonPrimary--grey-300:hover {
+  background: linear-gradient(90deg, #DEDEDE, #d1d1d1);
+}
+
+.buttonSecondary--grey-300 {
+  background-color: transparent;
+  color: #DEDEDE;
+}
+.buttonSecondary--grey-300:hover {
+  background-color: rgba(222, 222, 222, 0.1);
+}
+
+.buttonPrimary--grey-400 {
+  background: linear-gradient(90deg, #C9C9C9, #bcbcbc);
+  color: #000000;
+}
+.buttonPrimary--grey-400:hover {
+  background: linear-gradient(90deg, #C9C9C9, #bcbcbc);
+}
+
+.buttonSecondary--grey-400 {
+  background-color: transparent;
+  color: #C9C9C9;
+}
+.buttonSecondary--grey-400:hover {
+  background-color: rgba(201, 201, 201, 0.1);
+}
+
+.buttonPrimary--grey-500 {
+  background: linear-gradient(90deg, #A7A7A7, #9a9a9a);
+  color: #000000;
+}
+.buttonPrimary--grey-500:hover {
+  background: linear-gradient(90deg, #A7A7A7, #9a9a9a);
+}
+
+.buttonSecondary--grey-500 {
+  background-color: transparent;
+  color: #A7A7A7;
+}
+.buttonSecondary--grey-500:hover {
+  background-color: rgba(167, 167, 167, 0.1);
+}
+
+.buttonPrimary--grey-600 {
+  background: linear-gradient(90deg, #7C7C7C, #6f6f6f);
+  color: #FFFFFF;
+}
+.buttonPrimary--grey-600:hover {
+  background: linear-gradient(90deg, #7C7C7C, #6f6f6f);
+}
+
+.buttonSecondary--grey-600 {
+  background-color: transparent;
+  color: #7C7C7C;
+}
+.buttonSecondary--grey-600:hover {
+  background-color: rgba(124, 124, 124, 0.1);
+}
+
+.buttonPrimary--grey-700 {
+  background: linear-gradient(90deg, #4F4F50, #424243);
+  color: #FFFFFF;
+}
+.buttonPrimary--grey-700:hover {
+  background: linear-gradient(90deg, #4F4F50, #424243);
+}
+
+.buttonSecondary--grey-700 {
+  background-color: transparent;
+  color: #4F4F50;
+}
+.buttonSecondary--grey-700:hover {
+  background-color: rgba(79, 79, 80, 0.1);
+}
+
+.buttonPrimary--grey-800 {
+  background: linear-gradient(90deg, #353535, #282828);
+  color: #FFFFFF;
+}
+.buttonPrimary--grey-800:hover {
+  background: linear-gradient(90deg, #353535, #282828);
+}
+
+.buttonSecondary--grey-800 {
+  background-color: transparent;
+  color: #353535;
+}
+.buttonSecondary--grey-800:hover {
+  background-color: rgba(53, 53, 53, 0.1);
+}
+
+.buttonPrimary--blue-100 {
+  background: linear-gradient(90deg, #A8D2FF, #8fc5ff);
+  color: #000000;
+}
+.buttonPrimary--blue-100:hover {
+  background: linear-gradient(90deg, #A8D2FF, #8fc5ff);
+}
+
+.buttonSecondary--blue-100 {
+  background-color: transparent;
+  color: #A8D2FF;
+}
+.buttonSecondary--blue-100:hover {
+  background-color: rgba(168, 210, 255, 0.1);
+}
+
+.buttonPrimary--blue-200 {
+  background: linear-gradient(90deg, #5EABFF, #459eff);
+  color: #000000;
+}
+.buttonPrimary--blue-200:hover {
+  background: linear-gradient(90deg, #5EABFF, #459eff);
+}
+
+.buttonSecondary--blue-200 {
+  background-color: transparent;
+  color: #5EABFF;
+}
+.buttonSecondary--blue-200:hover {
+  background-color: rgba(94, 171, 255, 0.1);
+}
+
+.buttonPrimary--blue-300 {
+  background: linear-gradient(90deg, #268EFF, #0d81ff);
+  color: #FFFFFF;
+}
+.buttonPrimary--blue-300:hover {
+  background: linear-gradient(90deg, #268EFF, #0d81ff);
+}
+
+.buttonSecondary--blue-300 {
+  background-color: transparent;
+  color: #268EFF;
+}
+.buttonSecondary--blue-300:hover {
+  background-color: rgba(38, 142, 255, 0.1);
+}
+
+.buttonPrimary--blue-400 {
+  background: linear-gradient(90deg, #007AFF, #006ee6);
+  color: #FFFFFF;
+}
+.buttonPrimary--blue-400:hover {
+  background: linear-gradient(90deg, #007AFF, #006ee6);
+}
+
+.buttonSecondary--blue-400 {
+  background-color: transparent;
+  color: #007AFF;
+}
+.buttonSecondary--blue-400:hover {
+  background-color: rgba(0, 122, 255, 0.1);
+}
+
+.buttonPrimary--blue-500 {
+  background: linear-gradient(90deg, #0066D6, #005abd);
+  color: #FFFFFF;
+}
+.buttonPrimary--blue-500:hover {
+  background: linear-gradient(90deg, #0066D6, #005abd);
+}
+
+.buttonSecondary--blue-500 {
+  background-color: transparent;
+  color: #0066D6;
+}
+.buttonSecondary--blue-500:hover {
+  background-color: rgba(0, 102, 214, 0.1);
+}
+
+.buttonPrimary--blue-600 {
+  background: linear-gradient(90deg, #005AB5, #004d9c);
+  color: #FFFFFF;
+}
+.buttonPrimary--blue-600:hover {
+  background: linear-gradient(90deg, #005AB5, #004d9c);
+}
+
+.buttonSecondary--blue-600 {
+  background-color: transparent;
+  color: #005AB5;
+}
+.buttonSecondary--blue-600:hover {
+  background-color: rgba(0, 90, 181, 0.1);
+}
+
+.buttonPrimary--blue-700 {
+  background: linear-gradient(90deg, #004A9A, #003e81);
+  color: #FFFFFF;
+}
+.buttonPrimary--blue-700:hover {
+  background: linear-gradient(90deg, #004A9A, #003e81);
+}
+
+.buttonSecondary--blue-700 {
+  background-color: transparent;
+  color: #004A9A;
+}
+.buttonSecondary--blue-700:hover {
+  background-color: rgba(0, 74, 154, 0.1);
+}
+
+.buttonPrimary--blue-800 {
+  background: linear-gradient(90deg, #003774, #002b5b);
+  color: #FFFFFF;
+}
+.buttonPrimary--blue-800:hover {
+  background: linear-gradient(90deg, #003774, #002b5b);
+}
+
+.buttonSecondary--blue-800 {
+  background-color: transparent;
+  color: #003774;
+}
+.buttonSecondary--blue-800:hover {
+  background-color: rgba(0, 55, 116, 0.1);
+}
+
+.buttonPrimary--red-100 {
+  background: linear-gradient(90deg, #FFB2B2, #ff9999);
+  color: #000000;
+}
+.buttonPrimary--red-100:hover {
+  background: linear-gradient(90deg, #FFB2B2, #ff9999);
+}
+
+.buttonSecondary--red-100 {
+  background-color: transparent;
+  color: #FFB2B2;
+}
+.buttonSecondary--red-100:hover {
+  background-color: rgba(255, 178, 178, 0.1);
+}
+
+.buttonPrimary--red-200 {
+  background: linear-gradient(90deg, #FF7C7C, #ff6363);
+  color: #000000;
+}
+.buttonPrimary--red-200:hover {
+  background: linear-gradient(90deg, #FF7C7C, #ff6363);
+}
+
+.buttonSecondary--red-200 {
+  background-color: transparent;
+  color: #FF7C7C;
+}
+.buttonSecondary--red-200:hover {
+  background-color: rgba(255, 124, 124, 0.1);
+}
+
+.buttonPrimary--red-300 {
+  background: linear-gradient(90deg, #FD5353, #fd3a3a);
+  color: #000000;
+}
+.buttonPrimary--red-300:hover {
+  background: linear-gradient(90deg, #FD5353, #fd3a3a);
+}
+
+.buttonSecondary--red-300 {
+  background-color: transparent;
+  color: #FD5353;
+}
+.buttonSecondary--red-300:hover {
+  background-color: rgba(253, 83, 83, 0.1);
+}
+
+.buttonPrimary--red-400 {
+  background: linear-gradient(90deg, #F42727, #f30f0f);
+  color: #FFFFFF;
+}
+.buttonPrimary--red-400:hover {
+  background: linear-gradient(90deg, #F42727, #f30f0f);
+}
+
+.buttonSecondary--red-400 {
+  background-color: transparent;
+  color: #F42727;
+}
+.buttonSecondary--red-400:hover {
+  background-color: rgba(244, 39, 39, 0.1);
+}
+
+.buttonPrimary--red-500 {
+  background: linear-gradient(90deg, #E41515, #cd1313);
+  color: #FFFFFF;
+}
+.buttonPrimary--red-500:hover {
+  background: linear-gradient(90deg, #E41515, #cd1313);
+}
+
+.buttonSecondary--red-500 {
+  background-color: transparent;
+  color: #E41515;
+}
+.buttonSecondary--red-500:hover {
+  background-color: rgba(228, 21, 21, 0.1);
+}
+
+.buttonPrimary--red-600 {
+  background: linear-gradient(90deg, #D31818, #bc1515);
+  color: #FFFFFF;
+}
+.buttonPrimary--red-600:hover {
+  background: linear-gradient(90deg, #D31818, #bc1515);
+}
+
+.buttonSecondary--red-600 {
+  background-color: transparent;
+  color: #D31818;
+}
+.buttonSecondary--red-600:hover {
+  background-color: rgba(211, 24, 24, 0.1);
+}
+
+.buttonPrimary--red-700 {
+  background: linear-gradient(90deg, #C30000, #aa0000);
+  color: #FFFFFF;
+}
+.buttonPrimary--red-700:hover {
+  background: linear-gradient(90deg, #C30000, #aa0000);
+}
+
+.buttonSecondary--red-700 {
+  background-color: transparent;
+  color: #C30000;
+}
+.buttonSecondary--red-700:hover {
+  background-color: rgba(195, 0, 0, 0.1);
+}
+
+.buttonPrimary--red-800 {
+  background: linear-gradient(90deg, #A50C0C, #8d0a0a);
+  color: #FFFFFF;
+}
+.buttonPrimary--red-800:hover {
+  background: linear-gradient(90deg, #A50C0C, #8d0a0a);
+}
+
+.buttonSecondary--red-800 {
+  background-color: transparent;
+  color: #A50C0C;
+}
+.buttonSecondary--red-800:hover {
+  background-color: rgba(165, 12, 12, 0.1);
+}
+
+.buttonPrimary--green-100 {
+  background: linear-gradient(90deg, #C3FFD4, #aaffc2);
+  color: #000000;
+}
+.buttonPrimary--green-100:hover {
+  background: linear-gradient(90deg, #C3FFD4, #aaffc2);
+}
+
+.buttonSecondary--green-100 {
+  background-color: transparent;
+  color: #C3FFD4;
+}
+.buttonSecondary--green-100:hover {
+  background-color: rgba(195, 255, 212, 0.1);
+}
+
+.buttonPrimary--green-200 {
+  background: linear-gradient(90deg, #84FFA6, #6bff94);
+  color: #000000;
+}
+.buttonPrimary--green-200:hover {
+  background: linear-gradient(90deg, #84FFA6, #6bff94);
+}
+
+.buttonSecondary--green-200 {
+  background-color: transparent;
+  color: #84FFA6;
+}
+.buttonSecondary--green-200:hover {
+  background-color: rgba(132, 255, 166, 0.1);
+}
+
+.buttonPrimary--green-300 {
+  background: linear-gradient(90deg, #3AFF71, #21ff5f);
+  color: #000000;
+}
+.buttonPrimary--green-300:hover {
+  background: linear-gradient(90deg, #3AFF71, #21ff5f);
+}
+
+.buttonSecondary--green-300 {
+  background-color: transparent;
+  color: #3AFF71;
+}
+.buttonSecondary--green-300:hover {
+  background-color: rgba(58, 255, 113, 0.1);
+}
+
+.buttonPrimary--green-400 {
+  background: linear-gradient(90deg, #0EEA4B, #0dd243);
+  color: #000000;
+}
+.buttonPrimary--green-400:hover {
+  background: linear-gradient(90deg, #0EEA4B, #0dd243);
+}
+
+.buttonSecondary--green-400 {
+  background-color: transparent;
+  color: #0EEA4B;
+}
+.buttonSecondary--green-400:hover {
+  background-color: rgba(14, 234, 75, 0.1);
+}
+
+.buttonPrimary--green-500 {
+  background: linear-gradient(90deg, #13D44A, #11bd42);
+  color: #000000;
+}
+.buttonPrimary--green-500:hover {
+  background: linear-gradient(90deg, #13D44A, #11bd42);
+}
+
+.buttonSecondary--green-500 {
+  background-color: transparent;
+  color: #13D44A;
+}
+.buttonSecondary--green-500:hover {
+  background-color: rgba(19, 212, 74, 0.1);
+}
+
+.buttonPrimary--green-600 {
+  background: linear-gradient(90deg, #00B834, #009f2d);
+  color: #FFFFFF;
+}
+.buttonPrimary--green-600:hover {
+  background: linear-gradient(90deg, #00B834, #009f2d);
+}
+
+.buttonSecondary--green-600 {
+  background-color: transparent;
+  color: #00B834;
+}
+.buttonSecondary--green-600:hover {
+  background-color: rgba(0, 184, 52, 0.1);
+}
+
+.buttonPrimary--green-700 {
+  background: linear-gradient(90deg, #099D33, #08852b);
+  color: #FFFFFF;
+}
+.buttonPrimary--green-700:hover {
+  background: linear-gradient(90deg, #099D33, #08852b);
+}
+
+.buttonSecondary--green-700 {
+  background-color: transparent;
+  color: #099D33;
+}
+.buttonSecondary--green-700:hover {
+  background-color: rgba(9, 157, 51, 0.1);
+}
+
+.buttonPrimary--green-800 {
+  background: linear-gradient(90deg, #108631, #0d6f29);
+  color: #FFFFFF;
+}
+.buttonPrimary--green-800:hover {
+  background: linear-gradient(90deg, #108631, #0d6f29);
+}
+
+.buttonSecondary--green-800 {
+  background-color: transparent;
+  color: #108631;
+}
+.buttonSecondary--green-800:hover {
+  background-color: rgba(16, 134, 49, 0.1);
+}
+
+/*# sourceMappingURL=bluelight.css.map */
