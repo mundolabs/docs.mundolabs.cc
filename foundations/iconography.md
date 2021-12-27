@@ -2,7 +2,7 @@
 
 Apple apps will utilise Apple’s[ SF Symbols](https://developer.apple.com/sf-symbols/) library, available for free for all iOS/iPadOS/macOS/watchOS/tvOS apps. The library has 3000+ icon variations
 
-![](../.gitbook/assets/image.png)
+![](../docs/.gitbook/assets/image.png)
 
 ## Modifications
 
