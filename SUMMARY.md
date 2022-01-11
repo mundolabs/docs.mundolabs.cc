@@ -12,13 +12,8 @@
 * [Accessibility](foundations/accessibility.md)
 * [Themes](foundations/product-branding.md)
 
-## Branding
-
-* [Product Branding](branding/product-branding.md)
-* [Company Branding](branding/company-branding.md)
-
 ## Components
 
-* [User Input](components/user-input.md)
-* [Primary Navigation](components/primary-navigation.md)
-* [Sidebar](components/sidebar.md)
+* [Badges](components/user-input.md)
+* [Buttons](components/primary-navigation.md)
+* [Cards](components/cards.md)
