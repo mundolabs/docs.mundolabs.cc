@@ -1,8 +1,21 @@
 # Buttons
 
+{% code title="Button.js" %}
 ```jsx
-<button className="button --primary --red-500 --small"><p><a href="#learn-more"><span className="material-icons">trash</span>Delete</a></p></button>
+<button className="button --primary --red-500 --small">
+    <p>
+        <a>
+            <Link href="/">
+                <span className="material-icons">
+                    trash
+                </span>
+                Delete
+            </Link>
+        </a>
+    </p>
+</button>
 ```
+{% endcode %}
 
 **MODIFIERS**
 
