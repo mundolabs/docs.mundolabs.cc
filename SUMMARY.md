@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Bluelight React](bluelight-react.md)
+* [Bluelight React](react.md)
 
 ## Foundations
 
@@ -10,12 +10,12 @@
 * [Iconography](foundations/iconography.md)
 * [Voice](foundations/voice.md)
 * [Accessibility](foundations/accessibility.md)
-* [Themes](foundations/product-branding.md)
+* [Themes](foundations/themes.md)
 
 ## Components
 
-* [Badges](components/user-input.md)
-* [Buttons](components/primary-navigation.md)
+* [Badges](components/badges.md)
+* [Buttons](components/buttons.md)
 * [Cards](components/cards.md)
 
 ## Layout
