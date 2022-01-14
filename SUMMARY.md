@@ -17,3 +17,8 @@
 * [Badges](components/user-input.md)
 * [Buttons](components/primary-navigation.md)
 * [Cards](components/cards.md)
+
+## Layout
+
+* [Sidebar](layout/sidebar.md)
+* [Toolbar](layout/toolbar.md)

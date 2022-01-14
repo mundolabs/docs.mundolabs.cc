@@ -1,37 +1,50 @@
 # Buttons
 
-{% code title="Button.js" %}
 ```jsx
-<button className="button --primary --red-500 --small">
-    <p>
-        <a>
-            <Link href="/">
-                <span className="material-icons">
-                    trash
-                </span>
-                Delete
-            </Link>
-        </a>
-    </p>
-</button>
+<Button mods="--primary --m --blue-400" leadingIcon="person">User</Button>
 ```
-{% endcode %}
 
-**MODIFIERS**
+## **Attributes**
 
-* Types:&#x20;
-  * Primary: `--primary`
-  * Secondary: `--secondary`
-* Primary Colour: `--[COLOUR]` _(Background colour for primary type, text colour for secondary type)_
-* Secondary Colour: _Automatically chosen based off background colour._&#x20;
-* Size:&#x20;
-  * Default: _Nothing_&#x20;
-  * Small: `--small`
+### **Modifiers**
 
-#### **STATES**
+#### **Required modifiers**
 
-Default, Hover, Disabled
+* Styles: `--primary`, `--secondary`, `--tertiary`
+* Size: `--m` (medium), `--s` (small)
+* Colour: `--[colour]`
 
-#### **CHILD ELEMENTS**
+{% hint style="info" %}
+Colour modifiers use Bluelight colour name described [here](../foundations/colour.md#system-colours).
+{% endhint %}
 
-Leading Icon: `<span className="material-icons">[ICON]</span>`
+#### Additional modifiers
+
+* Disabled: `--disabled`
+
+### Linking
+
+* App page linking: `pageLink=""`
+* Webpage linking: `urlLink=""`
+
+{% hint style="info" %}
+The `pageLink` attribute will be prioritised over the `urlLink` when both are declared.&#x20;
+{% endhint %}
+
+### Icons
+
+Button icons should be used only in circumstances that&#x20;
+
+* Leading icon: `leadingIcon=""`
+* Trailing icon: `trailingIcon=""`
+
+{% hint style="info" %}
+Trailing icons only are displayed for buttons that have a tertiary style and medium size.
+{% endhint %}
+
+### **States**
+
+Default, Hover
+
+****
+
