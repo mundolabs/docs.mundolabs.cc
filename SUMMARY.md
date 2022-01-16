@@ -14,6 +14,8 @@
 
 ## Components
 
+* [Chips](components/chips.md)
+* [Tags](components/tags.md)
 * [Badges](components/badges.md)
 * [Buttons](components/buttons.md)
 * [Cards](components/cards.md)

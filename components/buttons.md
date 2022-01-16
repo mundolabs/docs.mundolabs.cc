@@ -1,50 +1,47 @@
 # Buttons
 
 ```jsx
-<Button mods="--primary --m --blue-400" leadingIcon="person">User</Button>
+<Button mods="--primary --m --blue-400" leadingIcon="person">Submit</Button>
 ```
 
 ## **Attributes**
 
 ### **Modifiers**
 
-#### **Required modifiers**
+**Styles.** `--primary`, `--secondary`, `--tertiary` — Different button styles should be used collectively to show heirarchy between actions. Button groups should only use a maximum of two different styles, either _primary/secondary_, _primary/tertiary_, or _secondary/tertiary_.
 
-* Styles: `--primary`, `--secondary`, `--tertiary`
-* Size: `--m` (medium), `--s` (small)
-* Colour: `--[colour]`
+**Size.** `--m` (medium), `--s` (small) — Button size options should be used t
 
-{% hint style="info" %}
-Colour modifiers use Bluelight colour name described [here](../foundations/colour.md#system-colours).
-{% endhint %}
+**Colour.** `--[colour]` — Colour modifiers use the Bluelight colour naming scheme described [here](../foundations/colour.md#system-colours).  Colour usage should utilise Bluelight's blanket [recommendations](../foundations/colour.md#system-colours) of using colour in user interfaces.
 
-#### Additional modifiers
+**Disabled\*.** `--disabled` —
 
-* Disabled: `--disabled`
+
+
+_\* — An optional modifier that is not required to be declared._
 
 ### Linking
 
-* App page linking: `pageLink=""`
-* Webpage linking: `urlLink=""`
+**App page linking.** `pageLink=""`
 
-{% hint style="info" %}
-The `pageLink` attribute will be prioritised over the `urlLink` when both are declared.&#x20;
+**Webpage linking.** `urlLink=""`
+
+{% hint style="warning" %}
+The `pageLink` attribute will be prioritised over the `urlLink` when both are declared, though declaring both should never be done.
 {% endhint %}
 
 ### Icons
 
-Button icons should be used only in circumstances that&#x20;
+Leading icons for buttons should be used only in circumstances that would benefit from an accompanying graphic. Consistency should be kept in mind when choosing to use or not use icons. Trailing icons should only be declared for supporting buttion types, and only display a chevron icon.&#x20;
 
-* Leading icon: `leadingIcon=""`
-* Trailing icon: `trailingIcon=""`
+* **Leading icon.** `leadingIcon=""` —&#x20;
+* **Trailing icon.** `trailingIcon=""` — Trailing icons only are displayed for buttons that have a tertiary style and medium size.
 
-{% hint style="info" %}
-Trailing icons only are displayed for buttons that have a tertiary style and medium size.
-{% endhint %}
-
-### **States**
+## **States**
 
 Default, Hover
+
+## Style Properties
 
 ****
 
