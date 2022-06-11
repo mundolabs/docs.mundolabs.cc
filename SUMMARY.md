@@ -6,22 +6,20 @@
 ## Foundations
 
 * [Colour](foundations/colour.md)
+* [Shape](foundations/shape.md)
 * [Typography](foundations/typography.md)
 * [Iconography](foundations/iconography.md)
 * [Voice](foundations/voice.md)
-* [Accessibility](foundations/accessibility.md)
-* [Themes](foundations/themes.md)
+
+## Elements
+
+* [Buttons](elements/buttons.md)
+* [Text Boxes](elements/text-boxes.md)
 
 ## Components
 
-* [Containers](components/containers.md)
-* [Chips](components/chips.md)
-* [Tags](components/tags.md)
-* [Badges](components/badges.md)
-* [Buttons](components/buttons.md)
-* [Cards](components/cards.md)
+* [Billboard](components/billboard.md)
 
-## Layout
+## Groups
 
-* [Sidebar](layout/sidebar.md)
-* [Toolbar](layout/toolbar.md)
+* [Header Carousel](groups/header-carousel.md)
