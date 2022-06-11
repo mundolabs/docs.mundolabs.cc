@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/bluelight4.png
+cover: .gitbook/assets/bluelightHeroS.png
 coverY: 0
 ---
 
