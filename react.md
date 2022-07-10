@@ -1,5 +1,13 @@
 # Bluelight React
 
-### Component Attributes
+### Interpreting Code Blocks
 
-<mark style="color:orange;">**Modifiers**</mark> are further properties, primarily stylistic, to a component that are declared in a `mods=""` attribute. Select modifiers are required to declare things like style, colour, and size, where no declared value may display a broken component. Whether a modifier is required or not is listed in the specific component's documentation page.
+The documentation utilises a communication, metalanguage-type, method to define the structure of elements, components, and groups.&#x20;
+
+_Elements_, _first-level components_ (i.e. not subelements or subcomponents), and _first-level groups_, indicate its respective syntax, disregarding props (including required ones), and describes its children or contents:
+
+* `/* Content */` is used to indicate where text should be used (i.e. no child elements or components)
+* `/* Children */` is used to indicate where child(ren) should be implemented into the code. The requirements and restrictions on what elements and components to use are defined under the heading: _Child Restrictions_.
+* `/* { <Child> } */` is used to indicate a specific `Child` — whether an element, component, or group — is to be implemented at that point in the code for a certain amount of times (including none at all, which may be defined in the _Child Restrictions_).&#x20;
+* `/* [ <Child> ] */` is used to indicate a specific `Child` is optional at that point in the code.
+* `<Child>` is used to indicate that a specific `Child` is required at that point in the code.&#x20;
