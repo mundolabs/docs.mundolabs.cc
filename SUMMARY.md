@@ -1,7 +1,9 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Bluelight React](react.md)
+* [Bluelight React](react/README.md)
+  * [Getting Started](react/getting-started.md)
+  * [Understanding the Documentation](react/understanding-the-documentation.md)
 
 ## Foundations
 

@@ -1,6 +1,6 @@
-# Bluelight React
+# Understanding the Documentation
 
-### Interpreting Code Blocks
+### Code Blocks
 
 The documentation utilises a communication, metalanguage-type, method to define the structure of elements, components, and groups.&#x20;
 
