@@ -18,6 +18,9 @@
 
 ## Components
 
+* [Sidebar](components/sidebar/README.md)
+  * [Sidebar Design Properties](components/sidebar/sidebar-design-properties.md)
+  * [Developing Sidebars with Bluelight React](components/sidebar/developing-sidebars-with-bluelight-react.md)
 * [Billboard](components/billboard.md)
 
 ## Groups
