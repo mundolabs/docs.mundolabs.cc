@@ -4,6 +4,7 @@
 * [Bluelight React](react/README.md)
   * [Getting Started](react/getting-started.md)
   * [Understanding the Documentation](react/understanding-the-documentation.md)
+  * [Mods](react/mods.md)
 
 ## Foundations
 
@@ -20,9 +21,11 @@
 
 ## Components
 
+* [Header](components/header/README.md)
+  * [Development](components/header/development.md)
 * [Sidebar](components/sidebar/README.md)
-  * [Sidebar Design Properties](components/sidebar/design.md)
-  * [Developing Sidebars with Bluelight React](components/sidebar/develop.md)
+  * [Design Properties](components/sidebar/design.md)
+  * [Development](components/sidebar/develop.md)
 * [Billboard](components/billboard.md)
 
 ## Groups
